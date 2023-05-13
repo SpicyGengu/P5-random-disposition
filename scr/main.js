@@ -9,7 +9,7 @@ let checkbox;
 
 function setup() {
     createCanvas(400, 400);
-    checkbox = createCheckbox('label', false);
+    checkbox = createCheckbox('Gausian', false);
     checkbox.changed(checkedEvent);
 }
 
